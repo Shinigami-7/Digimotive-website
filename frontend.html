@@ -1,384 +1,406 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <div class="header">
+      <header class="header-content">
+        <a href="#logo" class="logo">
+          <img src="./images/logo.png" alt="logoImage" class="logo-icon" />
+          <span class="logo-text">DigiMotive Nepal</span>
+        </a>
 
-        <header class="header-content">
+        <nav class="nav">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about-us" class="nav-link">About us</a>
+          <a href="#our-services" class="nav-link">Services</a>
+          <!-- <a href="#pricing" class="nav-link">Pricing</a> -->
+          <a href="#our-teams" class="nav-link">Our Teams</a>
+        </nav>
 
-            <a href="#logo" class="logo">
-                <img src="./images/logo.png" alt="logoImage" class="logo-icon" />
-                <span class="logo-text">DigiMotive Nepal</span>
-            </a>
+        <a href="#contact" class="contact-button"> Contact Us </a>
 
-            <nav class="nav">
-                <a href="#home" class="nav-link">Home</a>
-                <a href="#our-services" class="nav-link">Services</a>
-                <!-- <a href="#pricing" class="nav-link">Pricing</a> -->
-                <a href="#our-teams" class="nav-link">Our Teams</a>
-                <a href="#about" class="nav-link">About</a>
-            </nav>
-
-            <a href="#contact" class="contact-button">
-                Contact Us
-            </a>
-
-            <button type="button" class="menu-button">
-                <img src="./images/Hamburger.svg" alt="menuButton" class="menu-icon" />
-            </button>
-
-        </header>
-
+        <button type="button" class="menu-button">
+          <img
+            src="./images/Hamburger.svg"
+            alt="menuButton"
+            class="menu-icon"
+          />
+        </button>
+      </header>
     </div>
 
     <div class="content">
-        <section id="home" class="main-section">
+      <section id="home" class="main-section">
+        <div class="content-left">
+          <p class="section-label">Very proud to introduce</p>
+          <h1 class="section-title">Digital Solutions for Limitless Growth.</h1>
+          <p class="section-description">
+            We help ambitious brands grow faster through bold ideas, smart
+            strategies, and data-driven digital marketing. From building your
+            online presence to creating campaigns that convert, we combine
+            creativity with technology to deliver real results. Whether you're
+            launching a startup or scaling an established business, we're here
+            to turn your vision into measurable growth.
+          </p>
+          <div class="button-group">
+            <a href="#start" class="start-button">Start Now</a>
+            <a href="#tour" class="tour-button">Take Tour</a>
+          </div>
+        </div>
 
-            <div class="content-left">
-                <p class="section-label">Very proud to introduce</p>
-                <h1 class="section-title">Digital Solutions for Limitless Growth.</h1>
-                <p class="section-description">
-                    We help ambitious brands grow faster through bold ideas, smart strategies, and data-driven digital marketing. From building your online presence to creating campaigns that convert, we combine creativity with technology to deliver real results. Whether you're launching a startup or scaling an established business, we're here to turn your vision into measurable growth.
-                </p>
-                <div class="button-group">
-                    <a href="#start" class="start-button">Start Now</a>
-                    <a href="#tour" class="tour-button">Take Tour</a>
-                </div>
-            </div>
-            
-            <div class="content-right">
-
-                <div class="image-container">
-                    <img src="./images/usgs-hoS3dzgpHzw-unsplash.jpg" alt="sectionImage" class="section-image" />
-                </div>
-
-            </div>
-        </section>
+        <div class="content-right">
+          <div class="image-container">
+            <img
+              src="./images/usgs-hoS3dzgpHzw-unsplash.jpg"
+              alt="sectionImage"
+              class="section-image"
+            />
+          </div>
+        </div>
+      </section>
     </div>
 
-    
+    <div class="aboutUs-container">
+      <div class="main-info">
+        <h2 id="about-us" class="main-title">About Us</h2>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div class="feature-info">
+              <div class="feature-title">Who We Are</div>
+              <div class="feature-description">
+                We are a passionate team of designers, developers, and digital
+                strategists dedicated to building modern websites and
+                applications that help businesses grow online.
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-info">
+              <div class="feature-title">Our Mission</div>
+              <div class="feature-description">
+                Our mission is to create innovative, user-focused digital experiences that empower businesses to achieve their goals through technology and creativity.
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-info">
+              <div class="feature-title">What We Do</div>
+              <div class="feature-description">
+               <ul class="feature-list">
+                <li>Ui/Ux Design</li>
+                <li>Digital Marketing</li>
+                <li>Training</li>
+               </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-info">
+              <div class="feature-title">Why Choose Us</div>
+              <div class="feature-description">
+               <ul class="feature-list">
+                <li>Client-Focused Approach</li>
+                <li>On-Time Delivery</li>
+                <li>Experienced Team</li>
+               </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
 
     <div class="feature-container">
-        <div class="feature-content">
-            <div class="main-info">
-                <h2 id="our-services" class="main-title">
-                    Our Services
-                </h2>
-                <p class="main-description">
-                    This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of real written text but is random or otherwise generated.
-                </p>
-            </div>
-            
-            <div class="feature-grid">
-                <!-- card 1 -->
-                <div class="feature-card">
-                    <div class="icon-container">
-                        <img class="feature-svg" src="./images/PersonalizedLearn.svg"/>
-                    </div>
-                    <div class="feature-info">
-                        <div class="feature-title">
-                            Personalized Learning
-                        </div>
-                        <div class="feature-description">
-                            Offer tailored learning experiences through AI and machine learning to cater to individual student needs.
-                        </div>
-                    </div>
-                </div>
-                <!-- card 2 -->
-                <div class="feature-card">
-                    <div class="icon-container">
-                        <img class="feature-svg" src="./images/Affordability.svg"/>
-                    </div>
-                    <div class="feature-info">
-                        <div class="feature-title">
-                            Affordability
-                        </div>
-                        <div class="feature-description">
-                            Provide high-quality education at an affordable price point, making it accessible to a broader audience.
-                        </div>
-                    </div>
-                </div>
-                <!-- card 3 -->
-                <div class="feature-card">
-                    <div class="icon-container">
-                        <img class="feature-svg" src="./images/IndustryPatner.svg"/>
-                    </div>
-                    <div class="feature-info">
-                        <div class="feature-title">
-                            Industry Partnerships
-                        </div>
-                        <div class="feature-description">
-                            Collaborate with well-known companies and institutions to offer accredited courses and certifications, adding credibility to your offerings.
-                        </div>
-                    </div>
-                </div>
-                <!-- card 4 -->
-                <div class="feature-card">
-                    <div class="icon-container">
-                        <img class="feature-svg" src="./images/InnovativeTech.svg"/>
-                    </div>
-                    <div class="feature-info">
-                        <div class="feature-title">
-                            Innovative Technology
-                        </div>
-                        <div class="feature-description">
-                            Utilize cutting-edge technology, such as augmented reality or virtual reality, to create immersive learning experiences.
-                        </div>
-                    </div>
-                </div>
-                <!-- card 5 -->
-                <div class="feature-card">
-                    <div class="icon-container">
-                        <img class="feature-svg" src="./images/IndustryPatner.svg"/>
-                    </div>
-                    <div class="feature-info">
-                        <div class="feature-title">
-                            Responsive Support
-                        </div>
-                        <div class="feature-description">
-                            Provide exceptional customer support and assistance to students and educators.
-                        </div>
-                    </div>
-                </div>
-                <!-- card 6 -->
-                <div class="feature-card">
-                    <div class="icon-container">
-                        <img class="feature-svg" src="./images/Analytics.svg"/>
-                    </div>
-                    <div class="feature-info">
-                        <div class="feature-title">
-                            Analytics and Insights
-                        </div>
-                        <div class="feature-description">
-                            Offer detailed progress tracking and analytics to help students and teachers monitor performance and make data-driven decisions.
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="feature-content">
+        <div class="main-info">
+          <h2 id="our-services" class="main-title">Our Services</h2>
+          <p class="main-description">
+            This is a section of some simple filler text, also known as
+            placeholder text. It shares some characteristics of real written
+            text but is random or otherwise generated.
+          </p>
         </div>
+
+        <div class="feature-grid">
+          <!-- card 1 -->
+          <div class="feature-card">
+            <div class="icon-container">
+              <img class="feature-svg" src="./images/PersonalizedLearn.svg" />
+            </div>
+            <div class="feature-info">
+              <div class="feature-title">Personalized Learning</div>
+              <div class="feature-description">
+                Offer tailored learning experiences through AI and machine
+                learning to cater to individual student needs.
+              </div>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="feature-card">
+            <div class="icon-container">
+              <img class="feature-svg" src="./images/Affordability.svg" />
+            </div>
+            <div class="feature-info">
+              <div class="feature-title">Affordability</div>
+              <div class="feature-description">
+                Provide high-quality education at an affordable price point,
+                making it accessible to a broader audience.
+              </div>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="feature-card">
+            <div class="icon-container">
+              <img class="feature-svg" src="./images/IndustryPatner.svg" />
+            </div>
+            <div class="feature-info">
+              <div class="feature-title">Industry Partnerships</div>
+              <div class="feature-description">
+                Collaborate with well-known companies and institutions to offer
+                accredited courses and certifications, adding credibility to
+                your offerings.
+              </div>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div class="feature-card">
+            <div class="icon-container">
+              <img class="feature-svg" src="./images/InnovativeTech.svg" />
+            </div>
+            <div class="feature-info">
+              <div class="feature-title">Innovative Technology</div>
+              <div class="feature-description">
+                Utilize cutting-edge technology, such as augmented reality or
+                virtual reality, to create immersive learning experiences.
+              </div>
+            </div>
+          </div>
+          <!-- card 5 -->
+          <div class="feature-card">
+            <div class="icon-container">
+              <img class="feature-svg" src="./images/IndustryPatner.svg" />
+            </div>
+            <div class="feature-info">
+              <div class="feature-title">Responsive Support</div>
+              <div class="feature-description">
+                Provide exceptional customer support and assistance to students
+                and educators.
+              </div>
+            </div>
+          </div>
+          <!-- card 6 -->
+          <div class="feature-card">
+            <div class="icon-container">
+              <img class="feature-svg" src="./images/Analytics.svg" />
+            </div>
+            <div class="feature-info">
+              <div class="feature-title">Analytics and Insights</div>
+              <div class="feature-description">
+                Offer detailed progress tracking and analytics to help students
+                and teachers monitor performance and make data-driven decisions.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="testimonial-container">
-        <div class="testimonial-content">
-            <h2 id="our-teams" class="testimonial-title">
-                Our Teams
-            </h2>
-            <div class="testimonial-grid">  
-                <!-- card 1 -->
-                <div class="testimonial-card">
-                    <div class="testimonial-text">
-                        “StudySync revolutionized my classroom! Engaging content and teacher resources make learning enjoyable. Highly recommended for educators.”
-                    </div>
-                    <div class="testimonial-avatar">
-                        <img src="./images/chairman.jpg"/>
-                    </div>
-                    <div class="testimonial-details">
-                        <h3 class="testimonial-name"> 
-                            Ankit Thapa
-                        </h3>
-                        <p class="testimonial-desc">
-                            Chairman
-                        </p>
-                    </div>
-                </div>
-                <!-- card 2 -->
-                <div class="testimonial-card">
-                    <div class="testimonial-text">
-                        “StudySync transformed our family's learning journey. Safe, interactive, and progress tracking features are invaluable for parents.”
-                    </div>
-                    <div class="testimonial-avatar">
-                        <img src="./images/executive.jpg"/>
-                    </div>
-                    <div class="testimonial-details">
-                        <h3 class="testimonial-name"> 
-                            Sakshyam Sapkota
-                        </h3>
-                        <p class="testimonial-desc">
-                            Executive
-                        </p>
-                    </div>
-                </div>
-                <!-- card 3 -->
-                <div class="testimonial-card">
-                    <div class="testimonial-text">
-                        “StudySync, a true game-changer! Flexible content, tailored assessments, and excellent support. Integral to our school district's success.”
-                    </div>
-                    <div class="testimonial-avatar">
-                        <img src="./images/executives.jpg"/>
-                    </div>
-                    <div class="testimonial-details">
-                        <h3 class="testimonial-name"> 
-                            Lhakpa Tsheri Sherpa
-                        </h3>
-                        <p class="testimonial-desc">
-                            Executive
-                        </p>
-                    </div>
-                </div>
+      <div class="testimonial-content">
+        <h2 id="our-teams" class="testimonial-title">Our Teams</h2>
+        <div class="testimonial-grid">
+          <!-- card 1 -->
+          <div class="testimonial-card">
+            <div class="testimonial-text">
+              “StudySync revolutionized my classroom! Engaging content and
+              teacher resources make learning enjoyable. Highly recommended for
+              educators.”
             </div>
+            <div class="testimonial-avatar">
+              <img src="./images/chairman.jpg" />
+            </div>
+            <div class="testimonial-details">
+              <h3 class="testimonial-name">Ankit Thapa</h3>
+              <p class="testimonial-desc">Chairman</p>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="testimonial-card">
+            <div class="testimonial-text">
+              “StudySync transformed our family's learning journey. Safe,
+              interactive, and progress tracking features are invaluable for
+              parents.”
+            </div>
+            <div class="testimonial-avatar">
+              <img src="./images/executive.jpg" />
+            </div>
+            <div class="testimonial-details">
+              <h3 class="testimonial-name">Sakshyam Sapkota</h3>
+              <p class="testimonial-desc">Executive</p>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="testimonial-card">
+            <div class="testimonial-text">
+              “StudySync, a true game-changer! Flexible content, tailored
+              assessments, and excellent support. Integral to our school
+              district's success.”
+            </div>
+            <div class="testimonial-avatar">
+              <img src="./images/executives.jpg" />
+            </div>
+            <div class="testimonial-details">
+              <h3 class="testimonial-name">Lhakpa Tsheri Sherpa</h3>
+              <p class="testimonial-desc">Executive</p>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <div class="newsletter-container">
-        <div class="newsletter-content">
-            <!-- left part  -->
-            <div class="news-left">
-                <img src="./images/img.png" loading="lazy" alt="news-img"/>
-            </div>
-            <!-- right part -->
-            <div class="news-right">
-
-                <div class="news-info">
-                    <h2 class="news-title">Get the latest updates</h2>
-                    
-                    <p class="news-desc">Sign up for our newsletter</p>
-                </div>
-
-                <form class="news-form">
-
-                    <input class="news-email" placeholder="Email" />
-                    <button class="news-send-button">
-                        Send
-                    </button>
-
-                </form>
-
-                <div class="privacy-policy">
-                    By signing up to our newsletter you agree to our
-                    <a class="news-link">
-                        Terms of Service
-                    </a>
-                    and
-                    <a class="news-link">
-                        Privacy policy
-                    </a>
-                </div>
-
-            </div>
+      <div class="newsletter-content">
+        <!-- left part  -->
+        <div class="news-left">
+          <img src="./images/img.png" loading="lazy" alt="news-img" />
         </div>
+        <!-- right part -->
+        <div class="news-right">
+          <div class="news-info">
+            <h2 class="news-title">Get the latest updates</h2>
+
+            <p class="news-desc">Sign up for our newsletter</p>
+          </div>
+
+          <form class="news-form">
+            <input class="news-email" placeholder="Email" />
+            <button class="news-send-button">Send</button>
+          </form>
+
+          <div class="privacy-policy">
+            By signing up to our newsletter you agree to our
+            <a class="news-link"> Terms of Service </a>
+            and
+            <a class="news-link"> Privacy policy </a>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="footer-container">
-        <footer class="footer">
-
-            <div class="footer-top">
-
-                <div class="comp-logo">
-                    <a class="logo-link" href="#home">
-                        <img class="logo-svg" src="./images/logo.png"/>
-                        DigiMotive Nepal
-                    </a>
-                </div>
-                <!-- <p class="filler-text">Digital Solutions for Limitless Growth..</p> -->
-                <div class="social">
-                        <a class="social-link" href="#">
-                            <img src="./images/instagram.svg" class="social-icon" />
-                        </a>
-                        <a class="social-link">
-                            <img src="./images/linkedin.svg" class="social-icon" />
-                        </a>
-                        <a class="social-link">
-                            <img src="./images/Microsoft.svg" class="social-icon" />
-                        </a>
-                        <a class="social-link">
-                            <img src="./images/twitter.svg" class="social-icon" />
-                        </a>
-                </div>
-            </div>
-
-            <div class="footer-grid">
-                        <!-- column 1 -->
-                <div class="footer-grid-column">
-                            <div class="footer-grid-heading">
-                                Products
-                            </div>
-                            <ul class="footer-links-list">
-                                <li>
-                                    <a href="#overview" class="footer-link">Overview</a>
-                                </li>
-                                <li>
-                                    <a href="#overview" class="footer-link">Solutions</a>
-                                </li>
-                                <li>
-                                    <a href="#overview" class="footer-link">Pricing</a>
-                                </li>
-                                <li>
-                                    <a href="#overview" class="footer-link">Customers</a>
-                                </li>
-                            </ul>
-                </div>
-                        <!-- column 2 -->
-                <div class="footer-grid-column">
-                            <div class="footer-grid-heading">
-                                Company
-                            </div>
-                            <ul class="footer-links-list">
-                                <li>
-                                    <a href="#overview" class="footer-link">About</a>
-                                </li>
-                                <li>
-                                    <a href="#overview" class="footer-link">Investor Relations</a>
-                                </li>
-                                <li>
-                                    <a href="#overview" class="footer-link">Jobs</a>
-                                </li>
-                                <li>
-                                    <a href="#overview" class="footer-link">Press</a>
-                                </li>
-                                <li>
-                                    <a href="#overview" class="footer-link">Blog</a>
-                                </li>
-                            </ul>
-                </div>
-                        <!-- column 3 -->
-                <div class="footer-grid-column">
-                            <div class="footer-grid-heading">
-                                Support
-                            </div>
-                            <ul class="footer-links-list">
-                                <li>
-                                    <a href="#overview" class="footer-link">Contact</a>
-                                </li>
-                                <li>
-                                    <a href="#overview" class="footer-link">Documentation</a>
-                                </li>
-                                <li>
-                                    <a href="#overview" class="footer-link">Chat</a>
-                                </li>
-                                <li>
-                                    <a href="#overview" class="footer-link">FAQ</a>
-                                </li>
-                            </ul>
-                </div>
-                        <!-- column 4 -->
-                <div class="footer-grid-column">
-                            <div class="footer-grid-heading">
-                                Legal
-                            </div>
-                            <ul class="footer-links-list">
-                                <li>
-                                    <a href="#overview" class="footer-link">Terms of Service</a>
-                                </li>
-                                <li>
-                                    <a href="#overview" class="footer-link">Privacy Policy</a>
-                                </li>
-                                <li>
-                                    <a href="#overview" class="footer-link">Cookie Settings</a>
-                                </li>
-                                
-                            </ul>
-                </div>
-            </div>
-        </footer>
-        <div class="footer-copyright">
-            © 2021 - Present StudySync. All rights reserved.
+      <footer class="footer">
+        <div class="footer-top">
+          <div class="comp-logo">
+            <a class="logo-link" href="#home">
+              <img class="logo-svg" src="./images/logo.png" />
+              DigiMotive Nepal
+            </a>
+          </div>
+          <!-- <p class="filler-text">Digital Solutions for Limitless Growth..</p> -->
+          <div class="social">
+            <a class="social-link" href="#">
+              <img src="./images/instagram.svg" class="social-icon" />
+            </a>
+            <a class="social-link">
+              <img src="./images/linkedin.svg" class="social-icon" />
+            </a>
+            <a class="social-link">
+              <img src="./images/Microsoft.svg" class="social-icon" />
+            </a>
+            <a class="social-link">
+              <img src="./images/twitter.svg" class="social-icon" />
+            </a>
+          </div>
         </div>
+
+        <div class="footer-grid">
+          <!-- column 1 -->
+          <div class="footer-grid-column">
+            <div class="footer-grid-heading">Products</div>
+            <ul class="footer-links-list">
+              <li>
+                <a href="#overview" class="footer-link">Overview</a>
+              </li>
+              <li>
+                <a href="#overview" class="footer-link">Solutions</a>
+              </li>
+              <li>
+                <a href="#overview" class="footer-link">Pricing</a>
+              </li>
+              <li>
+                <a href="#overview" class="footer-link">Customers</a>
+              </li>
+            </ul>
+          </div>
+          <!-- column 2 -->
+          <div class="footer-grid-column">
+            <div class="footer-grid-heading">Company</div>
+            <ul class="footer-links-list">
+              <li>
+                <a href="#overview" class="footer-link">About</a>
+              </li>
+              <li>
+                <a href="#overview" class="footer-link">Investor Relations</a>
+              </li>
+              <li>
+                <a href="#overview" class="footer-link">Jobs</a>
+              </li>
+              <li>
+                <a href="#overview" class="footer-link">Press</a>
+              </li>
+              <li>
+                <a href="#overview" class="footer-link">Blog</a>
+              </li>
+            </ul>
+          </div>
+          <!-- column 3 -->
+          <div class="footer-grid-column">
+            <div class="footer-grid-heading">Support</div>
+            <ul class="footer-links-list">
+              <li>
+                <a href="#overview" class="footer-link">Contact</a>
+              </li>
+              <li>
+                <a href="#overview" class="footer-link">Documentation</a>
+              </li>
+              <li>
+                <a href="#overview" class="footer-link">Chat</a>
+              </li>
+              <li>
+                <a href="#overview" class="footer-link">FAQ</a>
+              </li>
+            </ul>
+          </div>
+          <!-- column 4 -->
+          <div class="footer-grid-column">
+            <div class="footer-grid-heading">Legal</div>
+            <ul class="footer-links-list">
+              <li>
+                <a href="#overview" class="footer-link">Terms of Service</a>
+              </li>
+              <li>
+                <a href="#overview" class="footer-link">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#overview" class="footer-link">Cookie Settings</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <div class="footer-copyright">
+        © 2026 - DigiMotive Nepal. All rights reserved.
+      </div>
     </div>
-</body>
+  </body>
 </html>

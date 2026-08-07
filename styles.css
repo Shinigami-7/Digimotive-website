@@ -306,10 +306,19 @@ body {
   }
 }
 
+.aboutUs-container {
+  background-color: var(--light-gray);
+  padding: 2.5rem 0;
+  text-align: center;
+  margin-bottom: .5rem;
+  
+}
+
 .feature-container {
   background-color: var(--light-gray);
   padding: 2.5rem 0;
   text-align: center;
+  
 }
 
 .feature-content {
@@ -322,6 +331,9 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
 
 .main-title {
@@ -350,6 +362,14 @@ body {
   background-color: #6d7890;
   padding: 1.6rem;
   border-radius: 1rem;
+  gap: 1rem;
+}
+
+.feature-list{
+  display: flex;
+  text-align: start;
+  list-style-type: disc;
+  flex-direction: column;
   gap: 1rem;
 }
 .feature-info {
