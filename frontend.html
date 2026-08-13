@@ -11,56 +11,77 @@
     <div class="header">
       <header class="header-content">
         <a href="#logo" class="logo">
-          <img src="./images/logo.png" alt="logoImage" class="logo-icon" />
-          <span class="logo-text">DigiMotive Nepal</span>
+          <img src="./images/logoo.png" alt="logoImage" class="logo-icon" />
+          <!-- <span class="logo-text">DigiMotive Nepal</span> -->
         </a>
 
         <nav class="nav">
           <a href="#home" class="nav-link">Home</a>
-          <a href="#about-us" class="nav-link">About us</a>
           <a href="#our-services" class="nav-link">Services</a>
+          <a href="#our-teams" class="nav-link">Testimonials</a>
+
+          <a href="#about-us" class="nav-link">About us</a>
           <!-- <a href="#pricing" class="nav-link">Pricing</a> -->
-          <a href="#our-teams" class="nav-link">Our Teams</a>
         </nav>
 
         <a href="#contact" class="contact-button"> Contact Us </a>
 
-        <button type="button" class="menu-button">
-          <img
-            src="./images/Hamburger.svg"
-            alt="menuButton"
-            class="menu-icon"
-          />
-        </button>
+        <div class="menu-wrapper">
+          <button
+            type="button"
+            class="menu-button"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <img
+              src="./images/Hamburger.svg"
+              alt="menuButton"
+              class="menu-icon"
+            />
+          </button>
+
+          <ul class="dropdown-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-us">About</a></li>
+            <li><a href="#our-services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
       </header>
     </div>
 
     <div class="content">
       <section id="home" class="main-section">
-        <div class="content-left">
-          <p class="section-label">Very proud to introduce</p>
-          <h1 class="section-title">Digital Solutions for Limitless Growth.</h1>
-          <p class="section-description">
-            We help ambitious brands grow faster through bold ideas, smart
-            strategies, and data-driven digital marketing. From building your
-            online presence to creating campaigns that convert, we combine
-            creativity with technology to deliver real results. Whether you're
-            launching a startup or scaling an established business, we're here
-            to turn your vision into measurable growth.
+        <div>
+          <h1 class="heading-section">Your Growth is our Motivation.</h1>
+          <p>
+            Creative solutions, Smart technology, Meaningful digital growth.
           </p>
-          <div class="button-group">
-            <a href="#start" class="start-button">Start Now</a>
-            <a href="#tour" class="tour-button">Take Tour</a>
-          </div>
         </div>
-
-        <div class="content-right">
-          <div class="image-container">
+        <div class="motive-section">
+          <div class="main-motive">
             <img
               src="./images/usgs-hoS3dzgpHzw-unsplash.jpg"
-              alt="sectionImage"
-              class="section-image"
+              alt="lets Analyze"
+              class="analyze"
             />
+            <p>Let's<span class="text-col"> Analyze</span></p>
+          </div>
+          <div class="main-motive">
+            <img
+              src="./images/usgs-hoS3dzgpHzw-unsplash.jpg"
+              alt="lets Analyze"
+              class="analyze"
+            />
+            <p>Let's<span class="text-col"> Create</span></p>
+          </div>
+          <div class="main-motive">
+            <img
+              src="./images/usgs-hoS3dzgpHzw-unsplash.jpg"
+              alt="lets Analyze"
+              class="analyze"
+            />
+            <p>Let's <span class="text-col">Grow</span></p>
           </div>
         </div>
       </section>
@@ -85,7 +106,9 @@
             <div class="feature-info">
               <div class="feature-title">Our Mission</div>
               <div class="feature-description">
-                Our mission is to create innovative, user-focused digital experiences that empower businesses to achieve their goals through technology and creativity.
+                Our mission is to create innovative, user-focused digital
+                experiences that empower businesses to achieve their goals
+                through technology and creativity.
               </div>
             </div>
           </div>
@@ -94,11 +117,11 @@
             <div class="feature-info">
               <div class="feature-title">What We Do</div>
               <div class="feature-description">
-               <ul class="feature-list">
-                <li>Ui/Ux Design</li>
-                <li>Digital Marketing</li>
-                <li>Training</li>
-               </ul>
+                <ul class="feature-list">
+                  <li>Ui/Ux Design</li>
+                  <li>Digital Marketing</li>
+                  <li>Training</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -107,16 +130,15 @@
             <div class="feature-info">
               <div class="feature-title">Why Choose Us</div>
               <div class="feature-description">
-               <ul class="feature-list">
-                <li>Client-Focused Approach</li>
-                <li>On-Time Delivery</li>
-                <li>Experienced Team</li>
-               </ul>
+                <ul class="feature-list">
+                  <li>Client-Focused Approach</li>
+                  <li>On-Time Delivery</li>
+                  <li>Experienced Team</li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-
       </div>
     </div>
 
@@ -402,5 +424,7 @@
         © 2026 - DigiMotive Nepal. All rights reserved.
       </div>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
